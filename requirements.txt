@@ -3,3 +3,4 @@ flasgger
 flask-marshmallow
 apispec
 pytest
+flake8
