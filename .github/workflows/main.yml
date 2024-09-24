@@ -31,7 +31,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Check for dependency conflicts
       run: |
-        pip-compile --upgrade --no-index --output-file requirements.txt requirements.txt
+        pip-compile --output-file requirements.txt requirements.txt
         git diff requirements.txt
     - name: Run tests
       run: |
