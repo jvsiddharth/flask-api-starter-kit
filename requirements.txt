@@ -4,3 +4,4 @@ flask-marshmallow
 apispec
 pytest
 flake8
+dotenv
