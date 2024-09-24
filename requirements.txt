@@ -1,0 +1,5 @@
+flask
+flasgger
+flask-marshmallow
+apispec
+pytest
